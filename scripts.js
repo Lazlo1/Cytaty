@@ -6,12 +6,12 @@ function getQuote() {
 }
 
 function createTweet(input) {
-	if(!input.quoteAuthor.lenght) {
+	if(!input.quoteAuthor.length) {
 		input.quoteAuthor = "Unknown author";
 	}
 	var tweetText = "Quote of the day - " + input.quoteText + "Author: " + input.quoteAuthor;
 
-	if(tweetText.lenght > 140) {
+	if(tweetText.length > 140) {
 		getQuote();
 	} else {
 		var tweet = tweetLink + encodeURIComponent(tweetText);

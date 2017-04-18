@@ -1,0 +1,25 @@
+body {
+	background: #0077CC;
+	color: #fff;
+	text-align: center;
+}
+header {
+	padding: 20px;
+}
+.box {
+	padding: 40px;
+	font-size: 3em;
+}
+.trigger {
+	padding: 20px;
+	background: #FE6502;
+	margin-top: 50px;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.trigger:hover {
+	background: #ccc;
+}
